@@ -38,7 +38,7 @@ export PATH="$JAVA_HOME/bin:$PATH"
 
 2. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/stock-market-dashboard.git
+git clone https://github.com/datpham18903/stock-market-dashboard.git
 cd stock-market-dashboard
 ```
 
