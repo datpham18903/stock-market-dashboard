@@ -13,6 +13,9 @@ eggs/
 # Virtual Environment
 venv/
 ENV/
+.env
+.venv
+pip-log.txt
 
 # IDE
 .idea/
@@ -23,3 +26,26 @@ ENV/
 # OS
 .DS_Store
 Thumbs.db
+
+# Project Specific
+*.csv
+*.xlsx
+*.json
+!config.example.json
+.ipynb_checkpoints/
+notebooks/.ipynb_checkpoints/
+logs/
+*.log
+credentials.json
+api_keys.yaml
+.env.local
+.coverage
+htmlcov/
+
+# Dependencies
+node_modules/
+package-lock.json
+
+# Temporary files
+tmp/
+temp/
