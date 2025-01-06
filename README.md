@@ -62,7 +62,7 @@ cd src
 streamlit run app.py
 ```
 
-2. Open your browser and navigate to: http://localhost:8501
+2. Open your browser and navigate to: ```http://localhost:8501```
 
 3. Enter a stock symbol (e.g., TSLA) in the search box
 
