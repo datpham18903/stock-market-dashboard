@@ -10,7 +10,8 @@ def calculate_technical_indicators(sdf):
 
     for period in ma_periods:
         sdf = sdf.withColumn(
-            f"MA{period}", avg("Close").over(window_spec.rowsBetween(-period + 1, 0))
+            f"MA{period}", 
+            avg("Close").over(window_spec.rowsBetween(-period + 1, 0))
         )
 
     return sdf
