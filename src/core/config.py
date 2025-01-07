@@ -8,5 +8,3 @@ def init_spark():
         .config("spark.sql.execution.arrow.enabled", "true")
         .getOrCreate()
     )
-
-

@@ -15,7 +15,7 @@ A real-time stock market dashboard built with Streamlit, PySpark, and machine le
   - 50-day moving average
   - 100-day moving average
   - 200-day moving average
-- Machine learning-based price predictions
+- Price predictions using LSTM neural networks
 - Market metrics and statistics
 - Responsive design
 
