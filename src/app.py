@@ -10,7 +10,10 @@ from visualization.styles import align_row_elements
 def main():
     spark = init_spark()
     
-    st.set_page_config(page_title="Stock Dashboard Application", page_icon=":chart_with_upwards_trend:", layout="wide")
+    st.set_page_config(
+        page_title="Stock Dashboard Application", 
+        page_icon=":chart_with_upwards_trend:", 
+        layout="wide")
     st.markdown(f"<style>{align_row_elements()}</style>", unsafe_allow_html=True)
 
     ticker = st.text_input("", value="TSLA", placeholder="Search for symbols")
